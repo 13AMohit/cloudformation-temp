@@ -1,0 +1,16 @@
+{ 
+    "AWSTemplateFormatVersion" : "2010-09-09",
+    "Resources" : {
+        "MyEC2Instance" : {
+            "Type" : "AWS::EC2::Instance",
+            "Properties" : {
+               "ImageId" : "ami-0d2986f2e8c0f7d01",
+               "KeyName" : "test",
+               "SecurityGroups" : [  "internship-ass"]
+            }
+    }
+
+
+    }
+
+}
